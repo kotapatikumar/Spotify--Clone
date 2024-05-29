@@ -1,0 +1,393 @@
+body{
+    font-family:sans-serif;
+    padding:0;
+    margin:0;
+    background-color:black;
+    color:white;
+    overflow:hidden;
+}
+.main{
+    display:flex;
+    height:100vh;
+    padding:0.5rem;
+}
+.sidebar{
+    background-color:#121212;
+    width:350px;
+    border-radius:1rem;
+    margin-right:0.5rem;
+}
+.main-content{
+    background-color:#121212;
+    flex:1;
+    border-radius:1rem;
+    overflow:auto;
+}
+.music-player{
+    background-color:#000;
+    position:fixed;
+    bottom:0px;
+    height:70px;
+    width:100%;
+}
+a{
+    text-decoration:none;
+    color:#fff;;
+}
+.nav{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:6rem;
+    background-color:#232323;
+    border-radius:1rem;
+}
+.home{
+    margin:0.75rem 1.75rem;
+}
+.home i{
+    padding-right:1rem;
+    font-size:1.25rem;
+}
+.search{
+    margin:0.75rem 1.75rem;
+    opacity:0.7;
+}
+.search i{
+    padding-right:1rem;
+    font-size:1.25rem;
+}
+.search:hover{
+    opacity:1;
+}
+.lib{
+    display:flex;
+    justify-content:space-between;
+    height:3.5rem;
+    background-color:#121212;
+    border-radius:1rem;
+    margin-top:0.75rem;
+}
+.logo{
+    display:flex;
+    opacity:0.7
+}
+.logo img{
+    height:1.5rem;
+    width:1.5rem;
+    margin:0.75rem 0.75rem;
+    padding:0rem 0.5rem;
+}
+.icons{
+    margin:0.75rem 0.75rem;
+}
+.icons #plus{
+    padding:0rem 1.5rem;
+}
+.icons i{
+    opacity:0.7;
+}
+.logo:hover{
+    opacity:1;
+}
+.icons i:hover{
+    opacity:1;
+}
+.box1{
+    padding-left:0.5rem;
+    height:8rem;
+    background-color:#221f1f;
+    border-radius:1rem;
+}
+.box1 button{
+    border-radius:2rem;
+    height:2rem;
+    width:7rem;
+    padding-left:0.3rem;
+    position:relative;
+    left:1rem;
+    font-weight:bolder;
+    border:none;
+}
+#p1{
+    padding-left:0.5rem;
+    opacity:0.9;
+    padding-top:1rem;
+}
+#p2{
+    padding-left:0.5rem;
+    opacity:0.7
+}
+.box2{
+    padding-left:0.5rem;
+    height:8rem;
+    background-color:#221f1f;
+    border-radius:1rem;
+}
+.box2 button{
+    border-radius:2rem;
+    height:2rem;
+    width:9rem;
+    padding-left:0.3rem;
+    position:relative;
+    left:1rem;
+    font-weight:bolder;
+    background-color:#fff;
+    border:none;
+}
+#p3{
+    padding-left:0.5rem;
+    opacity:0.9;
+    padding-top:1rem;
+}
+#p4{
+    padding-left:0.5rem;
+    opacity:0.7;
+    font-size:0.75rem;
+}
+.sticky{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:10;
+    height:3rem;
+    background-color:#232323;
+}
+.sticky-icons{
+    display:flex;
+    position:absolute;
+    top:1rem;
+}
+.sticky-buttons{
+    display:flex;
+    justify-content:space-between;
+    position:absolute;
+    right:5rem;
+    top:0.5rem;
+    }
+.sticky-buttons .btn2{
+    border-radius:2rem;
+    height:2rem;
+    width:7rem;
+    padding-left:0.3rem;
+    position:relative;
+    left:1rem;
+    font-weight:bolder;
+    margin: 0rem 1rem; 
+    background-color:#000;
+    color:#fff;
+    border:none;
+}
+.sticky-buttons .btn1{
+    border-radius:2rem;
+    height:2rem;
+    width:9rem;
+    padding-left:0.3rem;
+    position:relative;
+    left:1rem;
+    font-weight:bolder;
+    border:none;
+}
+
+.sticky-buttons .btn2  i{
+    margin:0.5rem;
+    margin-left:0.1rem;
+}
+ #human{
+    position:relative;
+    right:-1.5rem;
+    top:0.5rem;
+}
+.sticky-icons img{
+    width:1.25rem;
+    padding: 0 1rem;
+}
+@media (max-width:1000px){
+    .sticky-icons #for{
+        display:none;
+    }
+     .sticky-buttons .btn1{
+        display:none;
+    }
+}
+h2{
+    margin:2rem 1rem 0.5rem 1rem;
+}
+.container{
+    margin:1rem;
+    border-radius:0.5rem;
+    display:flex;
+    flex-wrap:wrap;
+}
+.card{
+    width:9rem;
+    padding:1rem;
+    height:16rem;
+    background-color:#232323;
+    border-radius:0.5rem;
+    margin:1rem;
+}
+.img{
+    width:100%;
+    border-radius:0.5rem;
+}
+.title{
+    font-weight:700;
+}
+.info{
+    font-size:0.9rem;
+    opacity:0.6
+}
+.footer{
+    height:300px;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+.line{
+    width:90%;
+    border:1px solid #fff;
+    height:0rem;
+    opacity:0.4;
+    position:relative;
+    bottom:-5rem;
+}
+.music-player{
+    display:flex;
+}
+.first{
+    display:flex;
+    width:25%;
+}
+.al-img{
+    width:3rem;
+    height:3rem;
+    margin-top:1rem;
+    
+}
+.singer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.first .singer p{
+    margin-top:1rem;
+    
+    font-size:0.75rem;
+    padding-left:0.5rem;
+    padding-top:0px;
+    font-size:12px;
+}
+ .first .singer .wow{
+    padding-bottom:0rem;
+    font-size:0.5rem;
+    margin-top:0rem;
+}
+.love{
+    height:1.75rem;
+    padding:1.25rem ;
+}
+.square{
+    height:2.25rem;
+    padding-right:7rem;
+    padding-top:1rem;
+}
+.second{
+    width:50%;
+}
+.third{
+    width:25%;
+}
+.second-icons{
+    display:flex;
+    justify-content:center;
+}
+.second-icons .player{
+    height:0.75rem;
+    padding:0.9rem;
+    opacity:0.7;
+}
+#third-icon{
+    height:1.85rem;
+    padding-top:0.25rem;
+    opacity:1;
+}
+.second-playbar{
+    display:flex;
+    justify-content:center;
+}
+.bar{
+    width:70%;
+    appearance:none;
+    cursor:pointer;
+    height:0.15rem;
+    opacity:0.7;
+}
+.bar::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width:1rem;
+    border-radius:50%;
+    background-color:#1bd760;
+}
+.start{
+    font-size:0.85rem;
+    height:1.5rem;
+    padding-top:0rem;
+    position:relative;
+    top:-0.25rem;
+}
+.end{
+    font-size:0.85rem;
+    height:1.5rem;
+    padding-top:0rem;
+    position:relative;
+    top:-0.25rem;
+}
+.third{
+    display:flex;
+    justify-content:start;
+}
+.third-img{
+    height:2rem;
+    margin:0.35rem;
+}
+ #one{
+    height:3rem;
+}
+#two{
+    height:3rem;
+}
+#three{
+    height:1.5rem;
+    padding-top:0.75rem;
+
+}
+#four{
+    height:1rem;
+    padding-top:1rem;
+}
+#five{
+    height:2.5rem;
+    padding-top:0.25rem;
+}
+#range{
+    padding-top:-5rem;
+    width:30%;
+    appearance: none;
+    height:5px;
+    cursor:pointer;
+    position:relative;
+    top:1.35rem;
+    right:0.65rem;
+    border-radius:0.5rem;
+}
+#range::-webkit-slider-thumb{
+    appearance:none;
+    height:0.75rem;
+    width:0.75rem;
+    border-radius:50%;
+    background-color:#1bd760;
+}
